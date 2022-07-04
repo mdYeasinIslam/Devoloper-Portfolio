@@ -1,3 +1,38 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.color {
+    color: rgb(242, 140, 6);
+}
+
+section {
+    display: flex;
+}
+
+
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.modify {
+    background-image: linear-gradient(rgb(254, 5, 5), rgb(214, 34, 34));
+    color: rgb(16, 8, 2);
+    padding: 1.5% 4%;
+    border-color: crimson;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(/developer-portfolio-master/images/top-banner.png);
+    background-repeat: no-repeat;
 }
