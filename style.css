@@ -3,27 +3,31 @@ body {
     margin: 0;
 }
 
+section {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.size {
+    padding-top: 20px;
+}
+
 .color {
     color: rgb(242, 140, 6);
 }
 
-section {
-    display: flex;
-}
-
-
-
 .half-width {
-    width: 50%;
-    padding-left: 2%;
+    width: 90%;
+    padding-left: 50px;
 }
 
 .half-width img {
     width: 80%;
+    padding-left: 10px;
 }
 
 .modify {
-    background-image: linear-gradient(rgb(254, 5, 5), rgb(214, 34, 34));
+    background-image: linear-gradient(rgb(2, 99, 16), rgb(132, 170, 9));
     color: rgb(16, 8, 2);
     padding: 1.5% 4%;
     border-color: crimson;
@@ -33,6 +37,31 @@ section {
 }
 
 .top-banner {
-    background-image: url(/developer-portfolio-master/images/top-banner.png);
+    background-image: url(developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 1%;
+    padding-bottom: 0px;
+}
+
+
+
+
+.top-banner2 {
+    background-image: url(developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 1%;
+}
+
+.padding {
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.img-style {
+    width: 55%;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: 0;
 }
